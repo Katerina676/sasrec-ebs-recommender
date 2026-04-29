@@ -6,3 +6,4 @@ __pycache__/
 .ipynb_checkpoints/
 checkpoints/*.pth
 .idea/
+preprocessed_data.pt
