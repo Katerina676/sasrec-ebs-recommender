@@ -25,9 +25,10 @@ source venv/bin/activate
 
 ### 4. Установить зависимости
 
+pip install -r requirements.txt
+
 ### Если у вас NVIDIA GPU:
 pip install torch --index-url https://download.pytorch.org/whl/cu124
-pip install -r requirements.txt
 
 ### в colab
 будет по умолчанию cuda если выбрать tesla t4
