@@ -5,33 +5,35 @@
 
 ## Данные
 
-Датасет Yambda (Яндекс.Музыка)
+- Датасет Yambda (Яндекс.Музыка)
 
 ## Установка
 
 ### 1. Клонировать репозиторий
-git clone https://github.com/Katerina676/sasrec-ebs-recommender.git
-cd sasrec-ebs-recommender
+- git clone https://github.com/Katerina676/sasrec-ebs-recommender.git
+- cd sasrec-ebs-recommender
 
 ### 2. Создать виртуальное окружение
-python -m venv venv
+- python -m venv venv
 
 ### 3. Активировать окружение
 
 ### Windows:
-venv\Scripts\activate
+- venv\Scripts\activate
 ### Linux/Mac:
-source venv/bin/activate
+- source venv/bin/activate
 
 ### 4. Установить зависимости
 
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 ### Если у вас NVIDIA GPU:
-pip install torch --index-url https://download.pytorch.org/whl/cu124
+- сначала удалить torch потом установить верный
+- pip uninstall torch torchvision torchaudio -y
 
+- pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 ### в colab
-будет по умолчанию cuda если выбрать tesla t4
+- будет по умолчанию cuda если выбрать tesla t4
 
 ## Запуск GUI
-python gui_demo.py
+- python gui_demo.py
