@@ -32,3 +32,6 @@ pip install torch --index-url https://download.pytorch.org/whl/cu124
 
 ### в colab
 будет по умолчанию cuda если выбрать tesla t4
+
+## Запуск GUI
+python gui_demo.py
