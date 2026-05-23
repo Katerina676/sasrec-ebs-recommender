@@ -36,4 +36,4 @@
 - будет по умолчанию cuda если выбрать tesla t4
 
 ## Запуск GUI
-- python gui_demo.py
+- python main.py
